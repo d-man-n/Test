@@ -1,0 +1,46 @@
+table {
+    border-collapse: collapse;
+ }
+
+ .table__cols {
+    border: 1px solid grey;
+    padding: 20px;
+ }
+
+ .cols22 {
+     background-color: red;
+ }
+
+ .cols42 {
+     color: blue;
+     font-style: italic;
+ }
+
+ .form__container {
+     margin-top: 40px;
+     display: flex;
+     justify-content: center;
+ }
+
+ .form__color,  .form__cols {
+     margin-right: 20px;
+     width: 200px;
+     height: 50px;
+     font-size: 20px;
+     padding-left: 10px;
+ }
+
+ .form__btn {
+     background-color: blue;
+     color: white;
+     border: 1px solid #bebebe;
+     border-radius: 10px;
+     padding: 0 20px;
+     cursor: pointer;
+     transition: background-color .2s ease-in-out, color .2s ease-in-out;
+ }
+
+ .form__btn:hover {
+     background-color: cyan;
+     color: darkblue;
+ }
